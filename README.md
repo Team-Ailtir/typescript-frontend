@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App][create-react-app].
 
+It is a simple WebApp that will add strings to a list.
+
+To run the app simply run ...
+
+```bash
+  npm install
+  npm test
+  npm start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
