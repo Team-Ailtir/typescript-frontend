@@ -12,6 +12,13 @@ To run the app simply run ...
   npm start
 ```
 
+To build and run the app using Docker ...
+
+```bash
+  docker build . -t typescript-frontend
+  docker run -p 3000:3000 typescript-frontend
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
