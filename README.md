@@ -19,6 +19,13 @@ To build and run the app using Docker ...
   docker run -p 3000:3000 typescript-frontend
 ```
 
+To build, tag and push the latest image to AWS ECR ...
+
+```bash
+  ./scripts/build.sh
+  ./scripts/push.sh
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
