@@ -7,3 +7,4 @@ aws_repo=$(aws ecr describe-repositories | jq -r ".repositories[] | select(.repo
 docker build . -t ${git_repo}
 docker tag ${git_repo}:latest ${git_repo}:${git_sha}
 docker tag ${git_repo}:latest ${aws_repo}:${git_sha}
+docker tag ${git_repo}:latest ${aws_repo}:latest
